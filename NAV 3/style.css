@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: rgb(68, 69, 70);
+}
+a,p,li,button{
+    text-decoration: none;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-weight: 500;
+    font-size: 20px ;
+    padding: 10px 20px;
+    cursor: pointer;
+    letter-spacing: .2em;
+    order: 3;
+    margin-left: auto;
+}
+.Button{
+    order: 2;
+}
+nav{
+    order: 1;
+}
+.nav-links li{
+list-style: none;
+display: inline-block;
+transition: all .3s ease 0s;
+}
+.nav-links li a{
+    margin: 0 15px;
+}
+.nav-links li a:hover{
+    color: rgb(221, 108, 56);
+}
+button{
+    border: none;
+    background-color:rgb(221, 108, 56) ;
+    margin-right: 20px;
+    padding: 6px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .3s ease 0s;
+}
+button:hover{
+    background-color:rgb(207, 100, 39) ;
+}
